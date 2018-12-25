@@ -1,0 +1,9 @@
+<!--pages/news/news.wxml-->
+<header title="新闻" />
+
+<scroll-view scroll-y style="height: {{clientHeight}}px;" bindscrolltolower="loadmore">
+  <view class='list-style'>
+    <view class='item-style' wx:for='{{list}}' wx:key='{{item.aid}}'>
+      {{item.title}}</view>
+  </view>
+</scroll-view>

@@ -1,0 +1,29 @@
+<!--pages/shop/shop.wxml-->
+
+<wxs src="../wxs/tools.wxs" module='tools'>
+</wxs>
+<Header title='{{title}}' />
+<view>{{tools.fool}}</view>
+<br/> {{tools.bar('哈哈哈')}}
+
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" />
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40" />
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="40" color="{{item}}" />
+  </block>
+</view>
+<br/>
+<view class='input'>
+  <input placeholder='请输入内容' type='number'></input>
+</view>

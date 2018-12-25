@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "用户",
+  "usingComponents": {
+    "br": "../../components/br/br",
+    "Header":"../../components/Header/Header",
+    "toast": "../../components/toast/toast"
+  }
+}

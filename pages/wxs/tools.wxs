@@ -1,0 +1,8 @@
+var fool = "'hello' from tools.wxs"
+var bar = function(d) {
+  return d;
+}
+module.exports = {
+  fool: fool,
+  bar: bar
+}

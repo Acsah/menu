@@ -1,0 +1,8 @@
+/* components/Header/Header.wxss */
+.header{
+  height: 40px;
+  line-height: 40px;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+}

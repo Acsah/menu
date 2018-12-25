@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品页面",
+  "usingComponents": {
+    "br": "../../components/br/br",
+    "Header":"../../components/Header/Header"
+  }
+}

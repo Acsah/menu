@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新闻",
+  "usingComponents":{
+    "header":"../../components/Header/Header"
+  }
+}

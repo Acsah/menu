@@ -1,0 +1,9 @@
+/* pages/shop/shop.wxss */
+.input{
+ padding: 20rpx;
+}
+input{
+  border: 1rpx solid #ccc;
+  height: 70rpx;
+  line-height: 70rpx;
+}

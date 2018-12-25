@@ -1,0 +1,10 @@
+/* pages/news/news.wxss */
+.list-style{
+  padding: 10rpx;
+}
+.item-style{
+  height: 90rpx;
+  line-height: 90rpx;
+  overflow: hidden;
+  border-bottom: 2rpx solid #ccc; 
+}

@@ -1,0 +1,5 @@
+<!--components/Header/Header.wxml-->
+<view class='header'>{{title}}
+
+<!-- <button size='mini' bindtap='run'>子组件</button> -->
+</view>

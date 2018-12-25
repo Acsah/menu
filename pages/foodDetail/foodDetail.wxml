@@ -1,0 +1,19 @@
+<!--pages/foodDetail/foodDetail.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+
+
+<view class='wrap'>
+  <view class='img'>
+    <image src='../../static/images/3.jpg'></image>
+  </view>
+
+  <view class='h2'>
+    {{detail.title}}
+  </view>
+
+  <view class='content'>
+    <!-- //这里data中article为bindName -->
+    <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+  </view>
+
+</view>
